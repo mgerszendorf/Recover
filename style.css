@@ -108,7 +108,6 @@
 @media all and (max-width: 1200px){
     .navbar {
         padding: 2rem 0;
-        /* font-size: 8px; */
     }
 
     .navbar a.menu_button {
@@ -214,7 +213,6 @@ form.subscribe_form input[type=text] {
     background-color:rgba(0, 0, 0, 0.07);
     border-radius: 3px;
     font-size: 1.7rem;
-    color: rgba(255, 255, 255, 0.7);
     border: none;
     outline: none;
     padding-left: 2.5rem;
@@ -333,7 +331,6 @@ form.subscribe_form input:-ms-input-placeholder{
 .left_img{
     display: flex;
     justify-content: center;
-    cursor: pointer;
 }
 
 .first_column{
@@ -354,9 +351,6 @@ form.subscribe_form input:-ms-input-placeholder{
     border-radius: 5px;
     width: 100%;
     align-self: center;
-}
-
-.first_column img, .second_column img{
     margin-top: 2vw;
 }
 
@@ -380,6 +374,10 @@ form.subscribe_form input:-ms-input-placeholder{
 
 .inactive_mobile_btn{
     display: none;
+}
+
+.img1_container, .img2_container, .img3_container, .img4_container, .img5_container, .img6_container, .mobile_img1_container, .mobile_img2_container{
+    cursor: pointer;
 }
 
 @media all and (max-width: 1200px){
@@ -612,7 +610,6 @@ section#offers {
     width: 100vw;
     max-width: 100%;
     background-color: #181B2F;
-    /* margin-top: 10rem; */
 }
 
 .top_area_offers {
@@ -988,6 +985,22 @@ div.future_one p, div.future_two p{
     padding-left: 30px;
 }
 
+.contact_form input[type=text]::-webkit-input-placeholder{
+    color: #777A93;
+}
+
+.contact_form input[type=text]:-moz-placeholder{
+    color: #777A93;
+}
+
+.contact_form input[type=text]::-moz-placeholder{
+    color: #777A93;
+}
+
+.contact_form input[type=text]:-ms-input-placeholder{
+    color: #777A93;
+}
+
 .name{
     width: 50%;
 }
@@ -1006,10 +1019,25 @@ textarea {
     background: #131629;
     border-radius: 3px;
     font-size: 1.7rem;
-    color: #777A93;
     border: none;
     outline: none;
     padding: 20px 0 0 30px;
+}
+
+textarea::-webkit-input-placeholder{
+    color: #777A93;
+}
+
+textarea:-moz-placeholder{
+    color: #777A93;
+}
+
+textarea::-moz-placeholder{
+    color: #777A93;
+}
+
+textarea:-ms-input-placeholder{
+    color: #777A93;
 }
 
 .contact_form input[type=submit]{
