@@ -10,6 +10,11 @@
     font-family: 'Mulish', sans-serif;
 }
 
+body.js-mobile-menu-open {
+    overflow: hidden;
+    height:100%;
+}
+
 /* HEADER - NAVBAR */
 
 .navbar {
@@ -211,6 +216,7 @@ form.subscribe_form input[type=text] {
     height: 5.5rem;
     margin: 2.6rem 4rem 0 4rem;
     background-color:rgba(0, 0, 0, 0.07);
+    color: rgba(255, 255, 255, 0.7);
     border-radius: 3px;
     font-size: 1.7rem;
     border: none;
@@ -627,7 +633,7 @@ section#offers {
 .top_area_offers p {
     display: block;
     max-width: 800px;
-    margin: 3vh 1rem 0 1rem;
+    margin: 3vh 2rem 0 2rem;
     font-size: 4.2rem;
     text-align: center;
     color: #FFFFFF;
@@ -878,7 +884,7 @@ section#offers {
 
 section#contact {
     background-color: #181B2F;
-    padding: 10rem 2vw;
+    padding: 10rem 2rem;
 }
 
 .contact_wrapper {
@@ -1017,6 +1023,7 @@ textarea {
     min-height: 19rem;
     margin-top: 1.5vh;
     background: #131629;
+    color: #777A93;
     border-radius: 3px;
     font-size: 1.7rem;
     border: none;

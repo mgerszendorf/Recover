@@ -1,10 +1,12 @@
 // Respnsive menu (burger adn sticky menu)
 const burger = document.querySelector(".burger");
 const menu = document.querySelector(".menu_links");
+const body = document.querySelector("body");
 
 burger.addEventListener("click", () => {
   menu.classList.toggle("active");
   burger.classList.toggle("active_burger");
+  body.classList.toggle("js-mobile-menu-open");
 });
 
 window.addEventListener("scroll", () => {
