@@ -9,6 +9,12 @@ burger.addEventListener("click", () => {
   body.classList.toggle("js-mobile-menu-open");
 });
 
+menu.addEventListener("click", () => {
+  menu.classList.remove("active");
+  body.classList.remove("js-mobile-menu-open");
+  burger.classList.remove("active_burger");
+});
+
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
   navbar.classList.toggle("sticky_menu", window.scrollY > 0);
