@@ -82,7 +82,7 @@ const specializations = [
   "Proin dignissim nibh ac finibus aliquam.",
 ];
 const contactTel = [
-  "Tel: +48 924 052 105",
+  "Tel: +48 724 234 101",
   "Tel: +48 736 945 735",
   "Tel: +48 269 653 098",
   "Tel: +48 39 853 546",

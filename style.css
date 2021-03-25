@@ -395,6 +395,7 @@ form.subscribe_form input:-ms-input-placeholder{
 
     .img1_container, .img2_container, .img3_container, .img4_container, .img5_container, .img6_container, .mobile_img1_container, .mobile_img2_container{
         position: relative;
+        cursor: none;
     }
     
     .active_mobile_btn{
